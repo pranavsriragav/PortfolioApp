@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="nav-title"><a href="index.html">Portfolio</a></h1>
+            <div class="nav-links">
+                <p class="nav-link"><a href="#home">Home</a></p>
+                <p class="nav-link"><a href="#about">About</a></p>
+                <p class="nav-link"><a href="#skills">Skills</a></p>
+                <p class="nav-link"><a href="#contact">Contact</a></p>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="home">
+            <h1>Hello I'm <span>Ragav</span></h1>
+            <h3>Student | Python Programmer</h3>
+            <p>I like coding and creating websites</p>
+            <a class="btn-style" href="#about">About me</a>
+        </section>
+
+        <section id="about">
+            <h2>About me</h2>
+            <p>I am a student interested in programming. I am learning HTML, CSS, JavaScript and Python. I enjoy building new projects.</p>
+        </section>
+
+        <section id="skills">
+            <h2 style="text-align: center;">Skills</h2>
+            <div class="skills">
+                <div class="box">HTML</div>
+                <div class="box">CSS</div>
+                <div class="box">Javascript</div>
+                <div class="box">Python</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 style="margin-bottom: 10px;">Contact Me</h2>
+            <form action="" method="post" class="contact-form" onsubmit="alert('Cont');">
+                <label>Name</label>
+                <input type="text"class='input-field' placeholder="Enter your name">
+                <label>Email ID</label>
+                <input type="email" class='input-field' placeholder="Enter your email address">
+                <label>Message</label>
+                <textarea class="input-field" placeholder="Enter your message" style="max-width: 300px; max-height: 400px;"></textarea>
+                <button class="btn-style" style="width: fit-content; align-self: center; padding: 20px;">Submit</button>
+            </form>
+        </section>
+    </div>
+    <footer class="footer">
+        <p>© 2026 Portfolio. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
